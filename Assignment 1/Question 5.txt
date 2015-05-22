@@ -1,0 +1,63 @@
+/*
+ *  Question5.cpp
+ *
+ *  Name:           [ Osang Gabriel Ozebe-nshua ]
+ *  Department:     [ Computer science ]
+ *  Matric. No:     [ 45296649GJ ]
+ *
+ *  Program that calculates the squares and cubes of the integers from 0 to 10
+ *
+ *  Stub file to enable you complete assignment #1 - question #5
+ */
+
+#include <iostream>
+#include <math.h>   // library to use pow() function to calculate squares and cubes
+using namespace std;
+
+int main()
+{
+    int num;
+    // display welcome messages to user
+    cout << "Welcome - This program calculates the squares and cubes\n";
+    cout << "of the integers from 0 to 10 and prints using tabs\n\n";
+    
+    	num= 0;
+	cout << "\nnumber\tsquare\tcube\n"
+	<< num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << "\n";
+	
+	num = num + 1;
+	cout << num << '\t' << num * num << '\t' << num * num * num << endl;
+	
+    
+    cout << "Thanks and Goodbye \n";
+    
+    //system("PAUSE");
+    return 0;
+}
